@@ -163,8 +163,8 @@ const closeSlider = ()=> {
 	imagesArea.style.display = 'block';
 	sliders = [];
 	clearInterval(timer);
-	const item = document.getElementsByClassName('added');
+	const item = document.getElementsByClassName('add');
 	for (let i = 0; i <= item.length+1; i++) {
-	  item[0].classList.remove('added');
+	  item[0].classList.remove('add');
 	}
   }
